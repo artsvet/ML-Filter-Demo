@@ -6,7 +6,7 @@
 import SwiftUI
 
 @main
-struct MyApp: App {
+struct MLFilterApp: App {
   var body: some Scene {
     WindowGroup {
       HomeView()

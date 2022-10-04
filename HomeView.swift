@@ -14,7 +14,7 @@ struct HomeView: View {
 
   var body: some View {
 
-    Text("MyApp")
+    Text("MLFilterApp")
      .bold()
      .padding()
 
