@@ -80,10 +80,7 @@ class CoreMLExecutor {
         self.processImage(data: lumaCopy,
                           rowBytes: lumaRowBytes,
                           width: width,
-                          height: height,
-                          sequenceCount: photo.sequenceCount,
-                          expectedCount: photo.resolvedSettings.expectedPhotoCount,
-                          orientation: photo.metadata[ String(kCGImagePropertyOrientation) ] as? UInt32)
+                          height: height)
 
         lumaCopy.deallocate()
     }
