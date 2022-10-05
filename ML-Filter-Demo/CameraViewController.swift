@@ -129,6 +129,7 @@ class CameraViewController: UIViewController, ObservableObject {
 
     // Enable delivery of depth data after adding the output to the capture session.
     photoOutput.isDepthDataDeliveryEnabled = true
+    return outputVideoSync
 
   }
 }  
